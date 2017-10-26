@@ -1,0 +1,376 @@
+/*Clases reutilizables*/
+.text-uppercase{
+	text-transform: uppercase;
+}
+.montserrat{
+	font-family: 'Montserrat', sans-serif;
+}
+.bold{
+	font-weight: 700;
+}
+/*Indicaciones para toda la página*/
+body{
+	margin: 0;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+}
+/*Barra de navegación*/
+nav{
+	width: 100%;
+	height: 110px;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	color: #FFF;
+	z-index: 10;
+	position: fixed;
+	outline: 1px solid #d8dce6;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+	color: #FFF;
+}
+a:hover{
+	color: #FF00BF;
+}
+.button-login{
+	width: 93px;
+	height: 45px;
+	background-color: transparent;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+	color: #FFF;
+	font-size: 1.125rem;
+	margin-top: 30px;
+}
+img{
+	width: 65px;
+}
+/*Primera sección: Encabezado*/
+header{
+	width: 100%;
+	height: auto;
+  	position: absolute;
+  	color: #FFF;
+}
+.header-gif{
+	width: 100%;
+	height: auto;
+}
+.contenedor{
+	width: 542px;
+	height: 419px;
+	top: 110px;
+	padding: 64px;
+	background-color: #FFF;
+	right: 0;
+	z-index: 10;
+	display: inline-block;
+	position: absolute;
+	box-sizing: border-box
+}
+.encabezado{
+	color: #470085;
+}
+.header-h{
+	font-size: 2.5rem;
+	margin: 0;
+}
+.header-p{
+	margin-top: 8px;
+}
+form{
+	width: 414px;
+	height: 114px;
+	border: none;
+}
+input{
+	width: 414px;
+	height: 47px;
+	font-size: 1rem;
+	color: #333447;
+	border: none;
+	border-bottom: 1px solid #470085;
+}
+.fondo-p{
+	font-size: .875rem;
+}
+.button-driver{
+	width: 183px;
+	height: 51px;
+	background-color: #FF00BF;
+	border: none;
+	border-radius: 10px;
+	color: #FFF;
+	font-size: 1rem;
+	margin-top: 12px;
+}
+.form-sign{
+	color:#999CB4;
+	text-decoration: underline;
+	margin-left: 20px;
+}
+.form-sign:hover{
+	color: #b30086;
+}
+.fondo{
+	margin-top: 15px;
+}
+.fondo-p{
+	color: #728099;
+	font-size: .6rem;
+}
+.fondo-a{
+	color: #ff00bf;
+	font-size: .6rem;
+}
+.fondo-a:hover{
+	color: #b30086;
+	text-decoration: underline;
+}
+/*Segunda sección: Info*/
+.info{
+	width: 100%;
+	height: 610px;
+	background: linear-gradient(#76278F, #2B1E66);
+	color: #FFF;
+	margin-top: 715.984px;
+	position: absolute;
+}
+.h3-info{
+	font-size: 1.75rem;
+	margin: 0;
+}
+.h3-information{
+	font-size: 1.75rem;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+.fila-ride{
+	width: 450.58px;
+	height: 110px;
+	margin-top: 24px;
+	margin-bottom: 44px;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+.fila-safety{
+	width: 450.58px;
+	height: 110px;
+	margin-top: 24px;
+	margin-bottom: 44px;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+.fila-happy{
+	width: 420.58px;
+	height: 148px;
+	margin-top: 24px;
+	margin-bottom: 44px;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+.p-info{
+	margin-top: 16px;
+	margin-bottom: 16px;
+	font-size: 1rem;
+    line-height: 1.5;
+}
+.text-info{
+	display: inline-block;
+	position: absolute;
+	left: 140px;
+    margin-top: 30px;
+}
+.img-phone{
+	width: 485px;
+	position: absolute;
+	right: 140px;
+    margin-top: 35px;
+}
+/*Tercera sección: Videos*/
+.videos{
+	width: 100%;
+	height: 1431px;
+	color: #FFF;
+	margin-top: 1325.984px;
+	position: absolute;
+}
+.box-video{
+	height: 477px;
+}
+.text-video{
+	width: 325px;
+	height: 201px;
+	color: #333447;
+	display: inline-block;
+	position: absolute;
+}
+.video-watch{
+	font-size: .875rem;
+	font-weight: 500;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+.video-title{
+	font-size: 1.75rem;
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+.video-text{
+	font-size: 1rem;
+	font-weight: 300;
+    line-height: 1.5;
+    margin-top: 24px;
+	margin-bottom: 16px;
+}
+.video-amplify{
+	position: absolute;
+	right: 0;
+}
+.video-june{
+	position: absolute;
+}
+.video-thing{
+	position: absolute;
+	right: 0;
+}
+.text-video-amplify{
+	top: 145px;
+	left: 50px;
+}
+.text-video-june{
+	margin-top: 145px;
+	right: 50px;
+}
+.text-video-thing{
+	margin-top: 145px;
+	left: 50px;
+}
+/*Cuarta sección: find your city*/
+.find-lyft{
+	width: 100%;
+	height: 320px;
+	background-color: #470085;
+	margin-top: 2756.984px;
+	position: absolute;
+}
+.dona{
+	width: 224px;
+	height: 352px;
+	position: absolute;
+    left: 140px;
+    top: -35px;
+}
+.find-lyft-text{
+	width: 500px;
+	height: 137px;
+	right: 120px;
+	color: #FFF;
+	position: absolute;
+	top: 80px;
+}
+.h4-find{
+	color: #f3f3f5;
+	font-size: 1.5rem;
+	margin: 0;
+	width: 500px;
+    height: 26px;
+    margin-bottom: 16px
+}
+.find-a-city{
+	background-color: #470085;
+	font-size: 1rem;
+	border: none;
+	border-bottom: 1px solid #FFF;
+	width: 500px;
+}
+.find-a{
+	font-size: 1rem;
+	font-weight: 300;
+	padding-top: 8px;
+    margin-bottom: 16px;
+}
+/*Quinta sección: Find a Lyft*/
+footer{
+	width: 100%;
+	height: 651px;
+	background-color: #393249;
+	position: absolute;
+	top: 3076px;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+li{
+	margin-top: 16px;
+	margin-bottom: 16px;
+	font-weight: 300; 
+}
+.footer-text{
+	width: 100%;
+	height: 446px;
+}
+.links{
+	width: 637px;
+	height: 446px;
+	color: #FFF;
+	display: inline-block;
+	position: absolute;
+    top: 30px;
+    left: 60px;
+}
+.ul-drive{
+	width: 192.234px;
+	height: 382px;
+	padding: 15px;
+	display: inline-block;
+}
+.ul-ride{
+	width: 192.234px;
+	height: 99px;
+	margin-bottom: 16px;
+	font-size: 1rem;
+    line-height: 1.5;
+}
+.ul-help{
+	position: absolute;
+}
+.h4-footer{
+	margin: 0;
+	margin-bottom: 20px;
+}
+.h4-footer:hover{
+	color: #FFF;
+	text-decoration: underline;
+}
+.li-title{
+	margin: 0;
+}
+.ul-partner{
+	width: 192.234px;
+	height: 382px;
+	padding: 15px;
+	display: inline-block;
+	position: absolute;
+
+}
+
+
+
+.ul-learn{
+	width: 192.234px;
+	height: 382px;
+	padding: 15px;
+	display: inline-block;
+	position: absolute;
+}
+
+.apps{
+	width: 446.250px;
+	height: 446px;
+	display: inline-block;
+}
