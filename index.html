@@ -3,14 +3,17 @@
 <head>
 	<title>Lyft</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="file:///home/carrz/Documents/Laboratoria/Spring-2/HTML/Positioning/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 	<nav>
-		<img src="images/logo-white.png">
-		<a href="#" class="nav-text-1 bold">Drive</a>
-		<a href="#" class="nav-text-2 bold">Explore v</a>
-		<a href="#" class="nav-text-3 bold">Help</a>
+		<img src="images/logo-white.png" class="logo">
+		<ul class="ul-nav">
+			<li class="li-nav"><a href="#" class="nav-text-1 bold a-nav">Drive</a></li>
+			<li class="li-nav"><a href="#" class="nav-text-2 bold a-nav">Explore <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+			<li class="li-nav"><a href="#" class="nav-text-3 bold a-nav">Help</a></li>
+		</ul>		
 		<button class="button-login">Log In</button>
 	</nav>
 	<header>
@@ -95,9 +98,9 @@
 			<div class="links">
 				<div class="ul-drive">
 					<ul class="ul-ride text-uppercase bold">
-						<li class="li-title"><a href="#"><h4 class="h4-footer">drive</h4></a></li>
-						<li class="li-title"><a href="#"><h4 class="h4-footer">ride</h4></a></li>
-						<li class="li-title"><a href="#"><h4 class="h4-footer">log in</h4></a></li>
+						<li class="li-title"><a href="#" class="a-title-footer"><h4 class="h4-footer">drive</h4></a></li>
+						<li class="li-title"><a href="#" class="a-title-footer"><h4 class="h4-footer">ride</h4></a></li>
+						<li class="li-title"><a href="#" class="a-title-footer"><h4 class="h4-footer">log in</h4></a></li>
 					</ul>
 					<ul class="ul-help">
 						<li><a href="#">Help</a></li>
@@ -110,7 +113,7 @@
 					</ul>
 				</div>
 				<div class="ul-partner">
-					<h3 class="text-uppercase bold">partner</h3>
+					<h3 class="text-uppercase bold h3-footer">partner</h3>
 					<ul>
 						<li><a href="#">Partnerships</a></li>
 						<li><a href="#">Business</a></li>
@@ -119,7 +122,7 @@
 					</ul>
 				</div>
 				<div class="ul-learn">
-					<h3 class="text-uppercase bold">Learn</h3>
+					<h3 class="text-uppercase bold h3-footer">Learn</h3>
 					<ul>
 						<li><a href="#">Safety</a></li>
 						<li><a href="#">Blog</a></li>
@@ -132,9 +135,32 @@
 					</ul>
 				</div>
 			</div>
-			<div class="apps"></div>
+			<div class="apps">
+				<a href="#"><img src="amazon-badge.b39298e1.svg" class="img-app"></a>
+				<a href="#"><img src="apple-store.83ad9e2d.svg" class="img-app"></a>
+				<a href="#"><img src="google-play-badge.8e87010e.svg" class="img-app"></a>
+				<a href="#"><img src="ms-badge.e2dfd8d1.svg" class="img-app"></a>
+				<a href="#"><img src="Chrome-small.27b39f84.png" class="img-app"></a>
+			</div>
 		</div>
-		<div class="footer-end"></div>
+		<div class="footer-end">
+			<div class="social-media">
+				<ul class="ul-horizontal">
+					<li class="li-horizontal-iconos"><a href="#" class="a-social"><i class="fa fa-twitter icon" aria-hidden="true"></i></a></li>
+					<li class="li-horizontal-iconos"><a href="#" class="a-social"><i class="fa fa-facebook icon" aria-hidden="true"></i></a></li>
+					<li class="li-horizontal-iconos"><a href="#" class="a-social"><i class="fa fa-instagram icon" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+			<div class="terms">
+				<div class="ul-box">
+					<ul class="ul-horizontal-terms">
+						<li class="li-horizontal-terms">© 2017 Lyft,Inc.</li>
+						<li class="li-horizontal-terms"><a href="#">Terms</a></li>
+						<li class="li-horizontal-terms"><a href="#">Privacy</a></li>
+		 			</ul>
+				</div>
+			</div>
+		</div>
 	</footer>
 </body>
 </html>

@@ -24,15 +24,45 @@ nav{
 	color: #FFF;
 	z-index: 10;
 	position: fixed;
-	outline: 1px solid #d8dce6;
+	outline: 1px solid transparent;
 }
 a{
 	text-decoration: none;
 	display: inline-block;
 	color: #FFF;
 }
+.a-nav{
+	font-size: 1.2rem;
+    font-weight: 300;
+}
+.fa-chevron-down{
+	font-weight: 300;
+}
 a:hover{
 	color: #FF00BF;
+	text-decoration: underline;
+}
+.logo{
+	position: absolute;
+    top: 40px;
+    left: 80px;
+}
+.ul-nav{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 40px;
+	display: inline-block;
+	overflow: auto;
+	position: absolute;
+    right: 260px;
+    top: 25px;
+}
+.li-nav{
+	width: 100px;
+	text-align: center;
+	float: left;
+	margin-left: 5px;
 }
 .button-login{
 	width: 93px;
@@ -43,6 +73,9 @@ a:hover{
 	color: #FFF;
 	font-size: 1.125rem;
 	margin-top: 30px;
+	position: absolute;
+    right: 150px;
+    top: 10px;
 }
 img{
 	width: 65px;
@@ -292,11 +325,11 @@ input{
 	padding-top: 8px;
     margin-bottom: 16px;
 }
-/*Quinta sección: Find a Lyft*/
+/*Quinta sección: Footer*/
 footer{
 	width: 100%;
 	height: 651px;
-	background-color: #393249;
+	background-color: #333447;
 	position: absolute;
 	top: 3076px;
 }
@@ -343,12 +376,18 @@ li{
 	margin: 0;
 	margin-bottom: 20px;
 }
-.h4-footer:hover{
-	color: #FFF;
+.a-title-footer:hover{
 	text-decoration: underline;
+	text-decoration-color: #FF00BF;
 }
 .li-title{
 	margin: 0;
+}
+.h3-footer{
+	color: #C0C2D9;
+	margin: 0;
+	margin-bottom: 16px;
+	padding-bottom: 8px;
 }
 .ul-partner{
 	width: 192.234px;
@@ -356,21 +395,83 @@ li{
 	padding: 15px;
 	display: inline-block;
 	position: absolute;
-
+	left: 225px;
 }
-
-
-
 .ul-learn{
 	width: 192.234px;
 	height: 382px;
 	padding: 15px;
 	display: inline-block;
 	position: absolute;
+	left: 450px;
 }
-
 .apps{
-	width: 446.250px;
+	width: 160px;
 	height: 446px;
 	display: inline-block;
+	right: 79px;
+    top: 58px;
+    position: absolute;
+}
+.img-app{
+	width: 100%;
+	margin-bottom: 12px;
+}
+/**/
+.footer-end{
+	position: absolute;
+	bottom: 0;
+}
+.social-media{
+	padding-left: 530px; 
+}
+.ul-horizontal{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 40px;
+	overflow: auto;
+}
+.li-horizontal-iconos{
+	width: 75px;
+	text-align: center;
+	float: left;
+}
+.icon{
+	width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    border: 1px solid #FFF;
+    display: inline-block;
+    font-size: 1.2rem;
+    line-height: 34px;
+    margin-left: 5px;
+}
+.a-social:hover{
+	color: #FFF;
+}
+.terms{
+	padding-left: 320px;
+}
+.ul-box{
+	width: 605.5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-top: 1px solid #FFF;
+}
+.ul-horizontal-terms{
+	list-style: none;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	padding-left: 190px;
+	line-height: 40px;
+	overflow: auto;
+}
+.li-horizontal-terms{
+	color: #FFF;
+	font-size: .95rem;
+	margin-right: 15px;
+	text-align: center;
+	float: left;
 }
