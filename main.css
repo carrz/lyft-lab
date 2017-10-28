@@ -379,6 +379,7 @@ li{
 .a-title-footer:hover{
 	text-decoration: underline;
 	text-decoration-color: #FF00BF;
+	color: #FFF;
 }
 .li-title{
 	margin: 0;
